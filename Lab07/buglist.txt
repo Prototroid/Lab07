@@ -1,0 +1,12 @@
+Jamison Walrod
+13 April 2018
+
+Bug 1: The isEmpty method only returns true, regardless of if the list is empty or not.
+
+Bug 2: The addBack method adds values to the front of the list instead of to the back.
+
+Bug 3: The removeBack method does not remove values from the list in any way.
+
+Bug 4: The removeFront method does not remove values from the list in any way.
+
+Bug 5: The destructor does not remove any nodes when it is called.
