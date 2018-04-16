@@ -399,7 +399,7 @@ void Test::areNodesDeleted()
     const std::vector<int> &myVector2 = testList.toVector();
     //seeVector(myVector2);
 
-    std::cout << "Test 21: deconstructor deletes all nodes in the list: ";
+    std::cout << "Test 21: destructor deletes all nodes in the list: ";
 
     isSizeCorrect(myVector2, 0, testList);
 }
